@@ -1,0 +1,534 @@
+---
+import Base from "../layouts/Base.astro";
+
+const spotlights = [
+  {
+    eyebrow: "Vision AI",
+    titleHead: "Camera in.",
+    titleTail: "Calories out.",
+    body:
+      "Point the camera at the plate. OpenAI vision parses every ingredient — quinoa, avocado, egg, the spinach hiding under the chicken — gram for gram, in under three seconds. No barcode hunt. No manual entry slog.",
+    bullets: [
+      "Ingredient-level breakdown, not just total kcal",
+      "Barcode + describe modes for packaged food",
+      "Edit before saving — Rex trusts but verifies",
+    ],
+    image: "/store/02-scan.webp",
+    alt: "Snap a meal — Rex recognising quinoa, avocado, egg, grilled chicken, tomatoes, spinach",
+    badgeStat: "≤ 3 sec",
+    badgeLabel: "Avg scan time",
+    reverse: false,
+  },
+  {
+    eyebrow: "AI Coach",
+    titleHead: "Not a chatbot.",
+    titleTail: "A character.",
+    body:
+      "Generic AI coaches read like LinkedIn — Rex reads like your worst friend. Sarcastic by design, remembers what you logged yesterday, never lectures the same way twice. The character is the product.",
+    bullets: [
+      "Persistent personality across sessions",
+      "Reads your week, not just your meal",
+      "Won't dance around the third slice of pizza",
+    ],
+    image: "/store/10-chat.webp",
+    alt: "AI chat with Rex — sarcastic exchange about burgers and a coke",
+    badgeStat: "1,200+",
+    badgeLabel: "Rex one-liners",
+    reverse: true,
+  },
+  {
+    eyebrow: "Meal plan",
+    titleHead: "The week,",
+    titleTail: "planned for you.",
+    body:
+      "Pull a weekly plan in one tap, built around your goal, allergies and dietary style. The shopping list generates from the plan. No more 3pm 'what's for dinner' negotiations with yourself.",
+    bullets: [
+      "Breakfast / lunch / dinner / snack per day",
+      "Tap-to-log straight from the plan card",
+      "Shopping list auto-grouped by aisle",
+    ],
+    image: "/store/07-plan.webp",
+    alt: "Weekly meal plan with breakfast, lunch, dinner and snack cards",
+    badgeStat: "28 meals",
+    badgeLabel: "Per week, one tap",
+    reverse: false,
+  },
+];
+
+const gridItems = [
+  {
+    image: "/store/03-home.webp",
+    alt: "Home screen — calories, macros, weight, steps, water",
+    title: "Home",
+    caption: "Calories, macros, weight, steps, water — one ring you read each morning.",
+  },
+  {
+    image: "/store/04-voice.webp",
+    alt: "Voice and type modes for logging a meal",
+    title: "Voice & type",
+    caption: "Speak it or type it. Whisper transcribes, Rex parses, you confirm.",
+  },
+  {
+    image: "/store/05-detail.webp",
+    alt: "Meal detail — Noodle Bowl Salad with ingredient breakdown",
+    title: "Meal detail",
+    caption: "Ingredient by ingredient — protein, carbs, fat, % of plate.",
+  },
+  {
+    image: "/store/06-recipes.webp",
+    alt: "Recipe browser with quick filters",
+    title: "Recipes",
+    caption: "Search, filter, favourite. Eat good, not boring.",
+  },
+  {
+    image: "/store/08-shopping.webp",
+    alt: "Shopping list organised by aisle — produce, meat, dairy",
+    title: "Shopping",
+    caption: "Generated from your plan, grouped by aisle, voice-add anything.",
+  },
+  {
+    image: "/store/09-stats.webp",
+    alt: "Stats — 21 day streak, weight, calories, steps trend",
+    title: "Stats",
+    caption: "Streak, weight curve, calorie trend — watch yourself win.",
+  },
+];
+
+const faqs = [
+  {
+    q: "How accurate is the calorie estimate from a photo?",
+    a: "Photo recognition uses OpenAI's vision model and typically lands within ±15% of true calories for plated meals. For packaged food, scan the barcode or speak the name — that's near-exact. You can always edit before saving.",
+  },
+  {
+    q: "Do you sell my data?",
+    a: "No. RexWithYou has no advertising, no analytics SDK, no data resale. Health data is held to Apple HealthKit's privacy rules — never used for marketing, never shared with third parties for advertising. Full detail in our Privacy Policy.",
+  },
+  {
+    q: "What does it cost?",
+    a: "Core tracking, water, weight and streaks are free. AI features (chat, photo scan, voice, meal plans) are part of RexWithYou — the paid tier — with a 7-day trial when you sign up. Pricing shown in-App before any charge.",
+  },
+  {
+    q: "Does Rex understand context?",
+    a: "Rex knows the dish, not just the macros. Sushi vs ramen vs grain bowl get different advice because the contexts are different. He remembers your goal and reads the week, not the meal.",
+  },
+  {
+    q: "iOS or Android?",
+    a: "Launching on iOS first via the App Store; Android via Google Play is next. If you're on Android today, ping us — we'll let you know when it lands.",
+  },
+  {
+    q: "Is this medical advice?",
+    a: "No. RexWithYou is a tracking and coaching app, not a medical device. If you have a clinical condition (diabetes, eating-disorder history, pregnancy), talk to your doctor before using any nutrition app — Rex included.",
+  },
+];
+---
+
+<Base>
+  <!-- ===== Top nav ===== -->
+  <header
+    class="fixed top-0 left-0 right-0 z-50 backdrop-blur-2xl backdrop-saturate-150 bg-black/45 border-b border-white/[0.06]"
+  >
+    <nav class="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2 group">
+        <img src="/app-icon.png" alt="" class="w-7 h-7 rounded-lg" />
+        <span class="text-[15px] font-semibold tracking-tight">
+          Rex<span class="text-rex-orange">With</span>You
+        </span>
+      </a>
+      <div class="flex items-center gap-6 text-sm text-rex-muted">
+        <a href="#features" class="hover:text-white transition-colors hidden sm:inline">Features</a>
+        <a href="#faq" class="hover:text-white transition-colors hidden sm:inline">FAQ</a>
+        <a
+          href="#download"
+          class="brand-gradient text-black font-semibold text-sm px-4 py-2 rounded-full hover:opacity-90 transition-opacity"
+        >
+          Get the app
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="relative pt-28 sm:pt-32 pb-16 sm:pb-24 overflow-hidden">
+    <!-- Atmospheric red glow — drifting -->
+    <div
+      class="absolute top-1/4 right-0 w-[900px] h-[900px] rounded-full blur-[160px] opacity-25 pointer-events-none glow-drift"
+      style="background: radial-gradient(circle, #ff3b3b 0%, transparent 65%);"
+    >
+    </div>
+    <div
+      class="absolute bottom-0 left-0 w-[600px] h-[600px] rounded-full blur-[140px] opacity-15 pointer-events-none glow-drift"
+      style="background: radial-gradient(circle, #ff9966 0%, transparent 60%); animation-delay: -6s;"
+    >
+    </div>
+
+    <div class="relative max-w-6xl mx-auto px-6 grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+      <!-- Left: copy -->
+      <div class="lg:col-span-7 order-2 lg:order-1 reveal">
+        <span class="section-eyebrow">RexWithYou · iOS &amp; Android · Coming soon</span>
+
+        <h1
+          class="mt-6 font-bold tracking-[-0.035em] leading-[0.92]"
+          style="font-size: clamp(48px, 9vw, 108px);"
+        >
+          Track calories.<br />
+          <span class="editorial-italic brand-gradient-text">Get told off</span>
+          <br />when you slip.
+        </h1>
+
+        <p class="mt-8 text-lg sm:text-xl text-rex-muted leading-relaxed max-w-xl">
+          AI calorie tracking with a sarcastic gym buddy who actually keeps you
+          accountable — without the spreadsheet vibes of every other tracker.
+        </p>
+
+        <div id="download" class="mt-10 flex flex-wrap items-center gap-4">
+          <a
+            href="#"
+            class="inline-flex items-center gap-3 bg-white text-black rounded-2xl px-5 py-3 hover:opacity-90 transition-opacity"
+            aria-label="Download on the App Store (placeholder)"
+          >
+            <svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M17.5 12.5c0-2.5 2-3.7 2.1-3.8-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8-1.6 0-3.2 1-4 2.5-1.7 3-.4 7.4 1.3 9.8.8 1.2 1.8 2.5 3.1 2.5 1.2-.1 1.7-.8 3.2-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.7s-2.5-1-2.5-3.9zM15 4.4c.7-.8 1.1-2 1-3.2-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.9-1 3 1.1.1 2.3-.6 2.9-1.3z"
+              ></path>
+            </svg>
+            <span class="text-left leading-tight">
+              <span class="block text-[10px] uppercase tracking-wide text-black/60">Download on the</span>
+              <span class="block text-lg font-semibold">App Store</span>
+            </span>
+          </a>
+
+          <a
+            href="#"
+            class="inline-flex items-center gap-3 bg-white text-black rounded-2xl px-5 py-3 hover:opacity-90 transition-opacity"
+            aria-label="Get it on Google Play (placeholder)"
+          >
+            <svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M3 20.5V3.5c0-.6.2-1.1.6-1.4l10.4 9.9-10.4 9.9c-.4-.3-.6-.8-.6-1.4z"></path>
+            </svg>
+            <span class="text-left leading-tight">
+              <span class="block text-[10px] uppercase tracking-wide text-black/60">Get it on</span>
+              <span class="block text-lg font-semibold">Google Play</span>
+            </span>
+          </a>
+        </div>
+
+        <p class="mt-6 text-sm text-rex-faint">
+          Free to track · AI features included with RexWithYou trial
+        </p>
+      </div>
+
+      <!-- Right: character mockup + floating frost badge -->
+      <div class="lg:col-span-5 order-1 lg:order-2 relative reveal reveal-delay-2">
+        <div class="relative mx-auto max-w-[420px] lg:max-w-none">
+          <img
+            src="/store/01-character.webp"
+            alt="Rex — your AI fitness coach"
+            class="w-full h-auto rounded-3xl shadow-2xl"
+            loading="eager"
+            fetchpriority="high"
+          />
+
+          <!-- Subtle red halo behind, pulsing -->
+          <div
+            class="absolute -inset-6 -z-10 rounded-3xl blur-2xl pulse-ring"
+            style="background: radial-gradient(circle at 50% 50%, #ff3b3b 0%, transparent 70%);"
+          >
+          </div>
+
+          <!-- Floating frost streak badge -->
+          <div
+            class="absolute -bottom-6 -left-4 sm:-left-10 frost-badge rounded-2xl px-4 py-3 float-y"
+            aria-hidden="true"
+          >
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded-full brand-gradient flex items-center justify-center text-black text-base">
+                🔥
+              </div>
+              <div class="leading-tight">
+                <div class="text-xs text-rex-faint uppercase tracking-wider">Streak</div>
+                <div class="text-lg font-bold">21 days</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Floating macro pill — top right -->
+          <div
+            class="absolute -top-3 -right-3 sm:-right-8 frost-badge rounded-full px-4 py-2 float-y"
+            style="animation-delay: -3s;"
+            aria-hidden="true"
+          >
+            <div class="flex items-center gap-2 text-xs">
+              <span class="text-rex-protein font-semibold">P 78</span>
+              <span class="text-rex-faint">·</span>
+              <span class="text-rex-carbs font-semibold">C 112</span>
+              <span class="text-rex-faint">·</span>
+              <span class="text-rex-fat font-semibold">F 41</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Trust strip ===== -->
+  <section class="border-y border-white/[0.06]">
+    <div class="frost">
+      <div class="max-w-6xl mx-auto px-6 py-6 grid grid-cols-2 md:grid-cols-4 gap-4 text-[13px]">
+        <div class="flex items-center gap-2 text-rex-muted">
+          <span class="w-1.5 h-1.5 rounded-full bg-rex-success"></span> OpenAI Vision &amp; Whisper
+        </div>
+        <div class="flex items-center gap-2 text-rex-muted">
+          <span class="w-1.5 h-1.5 rounded-full bg-rex-success"></span> Apple HealthKit · Health Connect
+        </div>
+        <div class="flex items-center gap-2 text-rex-muted">
+          <span class="w-1.5 h-1.5 rounded-full bg-rex-success"></span> No ads · no data resale
+        </div>
+        <div class="flex items-center gap-2 text-rex-muted">
+          <span class="w-1.5 h-1.5 rounded-full bg-rex-success"></span> No login · works on-device
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Spotlights ===== -->
+  <section id="features" class="px-6">
+    {spotlights.map((s) => (
+      <div class="py-28 lg:py-36 border-b border-white/[0.05] last:border-b-0">
+        <div class="max-w-6xl mx-auto grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
+          <!-- Image side -->
+          <div class={`lg:col-span-6 reveal ${s.reverse ? "lg:order-2" : ""}`}>
+            <div class="relative mx-auto max-w-[420px] lg:max-w-none">
+              <img
+                src={s.image}
+                alt={s.alt}
+                class="w-full h-auto rounded-3xl shadow-2xl"
+                loading="lazy"
+                decoding="async"
+              />
+
+              <!-- Subtle drifting halo -->
+              <div
+                class="absolute -inset-6 -z-10 rounded-3xl blur-2xl opacity-40 pulse-ring"
+                style="background: radial-gradient(circle at 50% 50%, #ff5e62 0%, transparent 70%);"
+              >
+              </div>
+
+              <!-- Floating frost stat badge -->
+              <div
+                class={`absolute frost-badge rounded-2xl px-4 py-3 float-y ${s.reverse ? "-left-4 sm:-left-10 top-8" : "-right-4 sm:-right-10 top-8"}`}
+                style="animation-delay: -2s;"
+                aria-hidden="true"
+              >
+                <div class="leading-tight text-right">
+                  <div class="text-xl sm:text-2xl font-bold brand-gradient-text">{s.badgeStat}</div>
+                  <div class="text-[10px] text-rex-faint uppercase tracking-wider mt-0.5">{s.badgeLabel}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Copy side -->
+          <div class={`lg:col-span-6 reveal reveal-delay-2 ${s.reverse ? "lg:order-1" : ""}`}>
+            <span class="section-eyebrow text-rex-orange/90">{s.eyebrow}</span>
+            <h2
+              class="mt-5 font-bold tracking-[-0.025em] leading-[1.02]"
+              style="font-size: clamp(36px, 5.5vw, 64px);"
+            >
+              {s.titleHead}<br />
+              <span class="editorial-italic brand-gradient-text">{s.titleTail}</span>
+            </h2>
+            <p class="mt-7 text-lg text-rex-muted leading-relaxed max-w-lg">{s.body}</p>
+
+            <ul class="mt-8 frost rounded-3xl p-6 space-y-3">
+              {s.bullets.map((b) => (
+                <li class="flex items-start gap-3 text-rex-text">
+                  <span class="mt-2 block w-1.5 h-1.5 rounded-full brand-gradient flex-shrink-0"></span>
+                  <span class="leading-relaxed text-[15px]">{b}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    ))}
+  </section>
+
+  <!-- ===== Everything else grid ===== -->
+  <section class="relative px-6 py-28 lg:py-36 border-y border-white/[0.05] overflow-hidden">
+    <!-- Subtle background tint -->
+    <div class="absolute inset-0 bg-rex-surface/30 pointer-events-none"></div>
+
+    <div class="relative max-w-6xl mx-auto">
+      <div class="max-w-3xl reveal">
+        <span class="section-eyebrow">Inside the app</span>
+        <h2
+          class="mt-5 font-bold tracking-[-0.025em] leading-[1.02]"
+          style="font-size: clamp(36px, 5.5vw, 64px);"
+        >
+          And everything<br />
+          <span class="editorial-italic brand-gradient-text">else you'd ask for.</span>
+        </h2>
+      </div>
+
+      <div class="mt-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        {gridItems.map((item, i) => (
+          <figure class={`group reveal reveal-delay-${(i % 3) + 1}`}>
+            <div class="relative overflow-hidden rounded-3xl frost transition-all duration-500 group-hover:scale-[1.015] group-hover:border-rex-orange/30 group-hover:shadow-[0_20px_60px_-15px_rgba(255,94,98,0.35)]">
+              <img
+                src={item.image}
+                alt={item.alt}
+                class="w-full h-auto block transition-transform duration-700 group-hover:scale-[1.02]"
+                loading="lazy"
+                decoding="async"
+              />
+              <!-- Hover glow overlay -->
+              <div
+                class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
+                style="background: linear-gradient(180deg, transparent 60%, rgba(255, 94, 98, 0.12) 100%);"
+              >
+              </div>
+            </div>
+            <figcaption class="mt-5 px-1">
+              <div class="text-base font-semibold tracking-tight transition-colors group-hover:text-rex-orange">
+                {item.title}
+              </div>
+              <p class="mt-1.5 text-sm text-rex-muted leading-relaxed">{item.caption}</p>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section id="faq" class="px-6 py-28 lg:py-36">
+    <div class="max-w-3xl mx-auto">
+      <div class="reveal">
+        <span class="section-eyebrow">FAQ</span>
+        <h2
+          class="mt-5 font-bold tracking-[-0.025em] leading-[1.02]"
+          style="font-size: clamp(36px, 5.5vw, 64px);"
+        >
+          Stuff you'd ask<br />
+          <span class="editorial-italic brand-gradient-text">before installing.</span>
+        </h2>
+      </div>
+
+      <div class="mt-14 space-y-3">
+        {faqs.map((item, i) => (
+          <details
+            class={`group frost rounded-2xl px-6 py-5 transition-colors open:border-rex-orange/25 hover:border-white/15 reveal reveal-delay-${(i % 3) + 1}`}
+          >
+            <summary class="flex items-center justify-between cursor-pointer list-none text-lg font-medium">
+              <span>{item.q}</span>
+              <span
+                class="ml-4 w-6 h-6 flex items-center justify-center rounded-full border border-white/15 group-open:rotate-45 group-open:bg-rex-orange/15 group-open:border-rex-orange/40 transition-all duration-300 text-rex-muted flex-shrink-0"
+                aria-hidden="true"
+              >
+                +
+              </span>
+            </summary>
+            <p class="mt-4 text-rex-muted leading-relaxed">{item.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Final CTA ===== -->
+  <section class="relative px-6 py-32 lg:py-44 overflow-hidden border-t border-white/[0.05]">
+    <div
+      class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full blur-[160px] opacity-25 pointer-events-none glow-drift"
+      style="background: radial-gradient(circle, #ff5e62 0%, transparent 60%);"
+    >
+    </div>
+
+    <div class="relative max-w-3xl mx-auto text-center reveal">
+      <h2
+        class="font-bold tracking-[-0.03em] leading-[0.98]"
+        style="font-size: clamp(44px, 7vw, 88px);"
+      >
+        Bring Rex.<br />
+        <span class="editorial-italic brand-gradient-text">Leave the excuses.</span>
+      </h2>
+      <p class="mt-7 text-lg text-rex-muted">
+        Install free. Trial RexWithYou's AI features for 7 days. Cancel anytime
+        from your phone settings.
+      </p>
+
+      <div class="mt-10 flex flex-wrap items-center justify-center gap-4">
+        <a
+          href="#"
+          class="inline-flex items-center gap-3 bg-white text-black rounded-2xl px-5 py-3 hover:opacity-90 transition-opacity"
+        >
+          <svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+              d="M17.5 12.5c0-2.5 2-3.7 2.1-3.8-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8-1.6 0-3.2 1-4 2.5-1.7 3-.4 7.4 1.3 9.8.8 1.2 1.8 2.5 3.1 2.5 1.2-.1 1.7-.8 3.2-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.7s-2.5-1-2.5-3.9zM15 4.4c.7-.8 1.1-2 1-3.2-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.9-1 3 1.1.1 2.3-.6 2.9-1.3z"
+            ></path>
+          </svg>
+          <span class="text-left leading-tight">
+            <span class="block text-[10px] uppercase tracking-wide text-black/60">Download on the</span>
+            <span class="block text-lg font-semibold">App Store</span>
+          </span>
+        </a>
+        <a
+          href="#"
+          class="inline-flex items-center gap-3 bg-white text-black rounded-2xl px-5 py-3 hover:opacity-90 transition-opacity"
+        >
+          <svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M3 20.5V3.5c0-.6.2-1.1.6-1.4l10.4 9.9-10.4 9.9c-.4-.3-.6-.8-.6-1.4z"></path>
+          </svg>
+          <span class="text-left leading-tight">
+            <span class="block text-[10px] uppercase tracking-wide text-black/60">Get it on</span>
+            <span class="block text-lg font-semibold">Google Play</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="border-t border-white/[0.05] px-6 py-12 text-sm text-rex-muted">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+      <div class="flex items-center gap-3">
+        <img src="/app-icon.png" alt="" class="w-8 h-8 rounded-lg" />
+        <div>
+          <div class="text-white font-semibold">RexWithYou</div>
+          <div class="text-xs text-rex-faint">
+            © 2026 [YOUR_LEGAL_NAME]. All rights reserved.
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap items-center gap-6">
+        <a href="/privacy" class="hover:text-white transition-colors">Privacy</a>
+        <a href="/terms" class="hover:text-white transition-colors">Terms</a>
+        <a href="mailto:[YOUR_PRIVACY_EMAIL]" class="hover:text-white transition-colors">Support</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== Scroll-reveal observer ===== -->
+  <script is:inline>
+    (function () {
+      if (typeof window === "undefined") return;
+      const els = document.querySelectorAll(".reveal");
+      if (!("IntersectionObserver" in window)) {
+        els.forEach((el) => el.classList.add("is-visible"));
+        return;
+      }
+      const io = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+              io.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.12, rootMargin: "0px 0px -8% 0px" }
+      );
+      els.forEach((el) => io.observe(el));
+    })();
+  </script>
+</Base>

@@ -1,0 +1,206 @@
+@import "tailwindcss";
+
+@theme {
+  --color-rex-bg: #000000;
+  --color-rex-surface: #111111;
+  --color-rex-surface-2: #181818;
+  --color-rex-surface-3: #232323;
+  --color-rex-line: #2a2a2a;
+  --color-rex-text: #ffffff;
+  --color-rex-muted: rgba(255, 255, 255, 0.62);
+  --color-rex-faint: rgba(255, 255, 255, 0.42);
+  --color-rex-orange: #ff5e62;
+  --color-rex-coral: #ff9966;
+  --color-rex-success: #65d6a6;
+  --color-rex-protein: #66bb6a;
+  --color-rex-carbs: #ffa726;
+  --color-rex-fat: #42a5f5;
+
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  html,
+  body {
+    background: var(--color-rex-bg);
+    color: var(--color-rex-text);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss03", "cv11";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: var(--color-rex-orange);
+    color: var(--color-rex-bg);
+  }
+}
+
+@utility brand-gradient {
+  background: linear-gradient(120deg, var(--color-rex-orange) 0%, var(--color-rex-coral) 100%);
+}
+
+@utility brand-gradient-text {
+  background: linear-gradient(120deg, var(--color-rex-orange) 0%, var(--color-rex-coral) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@utility editorial-italic {
+  font-style: italic;
+  font-feature-settings: "ss01", "cv11";
+  letter-spacing: -0.02em;
+}
+
+@utility section-eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-rex-muted);
+}
+
+/* ===== Frosted glass utilities ===== */
+
+@utility frost {
+  background-color: rgba(255, 255, 255, 0.035);
+  backdrop-filter: blur(22px) saturate(140%);
+  -webkit-backdrop-filter: blur(22px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+@utility frost-strong {
+  background-color: rgba(8, 8, 8, 0.55);
+  backdrop-filter: blur(30px) saturate(180%);
+  -webkit-backdrop-filter: blur(30px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+@utility frost-hover {
+  background-color: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(28px) saturate(160%);
+  -webkit-backdrop-filter: blur(28px) saturate(160%);
+  border-color: rgba(255, 94, 98, 0.25);
+}
+
+@utility frost-badge {
+  background-color: rgba(8, 8, 8, 0.5);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+/* ===== Reveal-on-scroll ===== */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-delay-1 {
+  transition-delay: 0.08s;
+}
+.reveal-delay-2 {
+  transition-delay: 0.16s;
+}
+.reveal-delay-3 {
+  transition-delay: 0.24s;
+}
+.reveal-delay-4 {
+  transition-delay: 0.32s;
+}
+.reveal-delay-5 {
+  transition-delay: 0.4s;
+}
+
+/* ===== Floating animations ===== */
+
+@keyframes glowDrift {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(40px, -30px) scale(1.06);
+  }
+  66% {
+    transform: translate(-30px, 20px) scale(0.96);
+  }
+}
+
+@keyframes floatY {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulseRing {
+  0%,
+  100% {
+    opacity: 0.18;
+  }
+  50% {
+    opacity: 0.32;
+  }
+}
+
+.glow-drift {
+  animation: glowDrift 18s ease-in-out infinite;
+}
+
+.float-y {
+  animation: floatY 6s ease-in-out infinite;
+}
+
+.pulse-ring {
+  animation: pulseRing 4s ease-in-out infinite;
+}
+
+/* ===== Reduced motion ===== */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .glow-drift,
+  .float-y,
+  .pulse-ring {
+    animation: none !important;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

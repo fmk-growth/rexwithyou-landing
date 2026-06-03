@@ -1,0 +1,194 @@
+---
+import Base from "./Base.astro";
+
+interface Props {
+  frontmatter: {
+    title: string;
+    description?: string;
+    eyebrow?: string;
+    effective?: string;
+  };
+}
+
+const { frontmatter } = Astro.props;
+---
+
+<Base title={frontmatter.title} description={frontmatter.description}>
+  <header class="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-rex-bg/70 border-b border-rex-line/60">
+    <nav class="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2">
+        <img src="/app-icon.png" alt="" class="w-7 h-7 rounded-lg" />
+        <span class="text-[15px] font-semibold tracking-tight">
+          Rex<span class="text-rex-orange">With</span>You
+        </span>
+      </a>
+      <a href="/" class="text-sm text-rex-muted hover:text-white transition-colors">← Back</a>
+    </nav>
+  </header>
+
+  <article class="pt-28 pb-24 px-6">
+    <div class="max-w-3xl mx-auto">
+      {frontmatter.eyebrow && <span class="section-eyebrow">{frontmatter.eyebrow}</span>}
+      <div class="markdown-content">
+        <slot />
+      </div>
+    </div>
+  </article>
+
+  <footer class="border-t border-rex-line px-6 py-12 text-sm text-rex-muted">
+    <div class="max-w-3xl mx-auto flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+      <div>© 2026 [YOUR_LEGAL_NAME]. All rights reserved.</div>
+      <div class="flex gap-6">
+        <a href="/privacy" class="hover:text-white transition-colors">Privacy</a>
+        <a href="/terms" class="hover:text-white transition-colors">Terms</a>
+        <a href="mailto:[YOUR_PRIVACY_EMAIL]" class="hover:text-white transition-colors">Support</a>
+      </div>
+    </div>
+  </footer>
+</Base>
+
+<style is:global>
+  .markdown-content {
+    color: var(--color-rex-muted);
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  .markdown-content h1 {
+    color: var(--color-rex-text);
+    font-size: clamp(36px, 5vw, 52px);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+    margin-top: 0.25rem;
+  }
+
+  .markdown-content h2 {
+    color: var(--color-rex-text);
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--color-rex-line);
+  }
+
+  .markdown-content h3 {
+    color: var(--color-rex-text);
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .markdown-content p {
+    margin: 0.9rem 0;
+  }
+
+  .markdown-content a {
+    color: var(--color-rex-orange);
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 94, 98, 0.4);
+    text-underline-offset: 3px;
+    transition: text-decoration-color 0.15s;
+  }
+  .markdown-content a:hover {
+    text-decoration-color: var(--color-rex-orange);
+  }
+
+  .markdown-content strong {
+    color: var(--color-rex-text);
+    font-weight: 600;
+  }
+
+  .markdown-content em {
+    font-style: italic;
+    color: var(--color-rex-text);
+  }
+
+  .markdown-content code {
+    background: var(--color-rex-surface-2);
+    border: 1px solid var(--color-rex-line);
+    color: var(--color-rex-coral);
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.88em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+
+  .markdown-content ul,
+  .markdown-content ol {
+    margin: 0.9rem 0;
+    padding-left: 1.4rem;
+  }
+
+  .markdown-content li {
+    margin: 0.35rem 0;
+  }
+
+  .markdown-content ul li::marker {
+    color: var(--color-rex-orange);
+  }
+
+  .markdown-content blockquote {
+    border-left: 3px solid var(--color-rex-orange);
+    padding: 0.4rem 0 0.4rem 1.2rem;
+    margin: 1.5rem 0;
+    color: var(--color-rex-muted);
+    background: var(--color-rex-surface);
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+  .markdown-content blockquote p {
+    margin: 0.3rem 0;
+  }
+
+  .markdown-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 14px;
+    background: var(--color-rex-surface);
+    border: 1px solid var(--color-rex-line);
+    border-radius: 0.75rem;
+    overflow: hidden;
+  }
+
+  .markdown-content thead {
+    background: var(--color-rex-surface-2);
+  }
+
+  .markdown-content th,
+  .markdown-content td {
+    text-align: left;
+    padding: 0.7rem 1rem;
+    border-bottom: 1px solid var(--color-rex-line);
+    vertical-align: top;
+  }
+
+  .markdown-content th {
+    color: var(--color-rex-text);
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+  }
+
+  .markdown-content tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  .markdown-content hr {
+    border: none;
+    border-top: 1px solid var(--color-rex-line);
+    margin: 3rem 0;
+  }
+
+  .markdown-content > :first-child {
+    margin-top: 0;
+  }
+
+  .markdown-content > blockquote:first-of-type {
+    background: var(--color-rex-surface-2);
+    border-left-color: var(--color-rex-coral);
+  }
+</style>

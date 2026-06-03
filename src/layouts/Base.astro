@@ -1,0 +1,63 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "RexWithYou — AI Fitness & Nutrition Coach",
+  description = "Snap a meal, hear it from Rex. AI-powered calorie tracking with a sarcastic gym buddy who actually keeps you accountable.",
+} = Astro.props;
+
+const ogImage = "/og-1200x630.png"; // TODO: generate
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#000000" />
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+
+    <!-- TODO: when Apple ID known, enable Smart App Banner -->
+    <!-- <meta name="apple-itunes-app" content="app-id=YOUR_APPLE_ID" /> -->
+
+    <link rel="icon" type="image/png" href="/app-icon.png" />
+    <link rel="apple-touch-icon" href="/app-icon.png" />
+
+    <link rel="preconnect" href="https://rsms.me" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rexwithyou.com/" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:site_name" content="RexWithYou" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "RexWithYou",
+      "operatingSystem": "iOS, Android",
+      "applicationCategory": "HealthApplication",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "description": description,
+      "url": "https://rexwithyou.com/"
+    })} />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
