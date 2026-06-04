@@ -11,7 +11,11 @@ const {
   description = "Snap a meal, hear it from Rex. AI-powered calorie tracking with a sarcastic gym buddy who actually keeps you accountable.",
 } = Astro.props;
 
-const ogImage = "/og-1200x630.png"; // TODO: generate
+// Astro's `base` config does NOT auto-prefix asset src or anchor href.
+// Use this helper everywhere a leading `/` path points inside the site.
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+const ogImage = `${base}/og-1200x630.png`; // TODO: generate
 ---
 
 <!doctype html>
@@ -28,8 +32,8 @@ const ogImage = "/og-1200x630.png"; // TODO: generate
     <!-- TODO: when Apple ID known, enable Smart App Banner -->
     <!-- <meta name="apple-itunes-app" content="app-id=YOUR_APPLE_ID" /> -->
 
-    <link rel="icon" type="image/png" href="/app-icon.png" />
-    <link rel="apple-touch-icon" href="/app-icon.png" />
+    <link rel="icon" type="image/png" href={`${base}/app-icon.png`} />
+    <link rel="apple-touch-icon" href={`${base}/app-icon.png`} />
 
     <link rel="preconnect" href="https://rsms.me" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />

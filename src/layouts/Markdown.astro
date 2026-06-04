@@ -11,18 +11,20 @@ interface Props {
 }
 
 const { frontmatter } = Astro.props;
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
 <Base title={frontmatter.title} description={frontmatter.description}>
   <header class="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-rex-bg/70 border-b border-rex-line/60">
     <nav class="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
-      <a href="/" class="flex items-center gap-2">
-        <img src="/app-icon.png" alt="" class="w-7 h-7 rounded-lg" />
+      <a href={`${base}/`} class="flex items-center gap-2">
+        <img src={`${base}/app-icon.png`} alt="" class="w-7 h-7 rounded-lg" />
         <span class="text-[15px] font-semibold tracking-tight">
           Rex<span class="text-rex-orange">With</span>You
         </span>
       </a>
-      <a href="/" class="text-sm text-rex-muted hover:text-white transition-colors">← Back</a>
+      <a href={`${base}/`} class="text-sm text-rex-muted hover:text-white transition-colors">← Back</a>
     </nav>
   </header>
 
@@ -39,8 +41,8 @@ const { frontmatter } = Astro.props;
     <div class="max-w-3xl mx-auto flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
       <div>© 2026 [YOUR_LEGAL_NAME]. All rights reserved.</div>
       <div class="flex gap-6">
-        <a href="/privacy" class="hover:text-white transition-colors">Privacy</a>
-        <a href="/terms" class="hover:text-white transition-colors">Terms</a>
+        <a href={`${base}/privacy`} class="hover:text-white transition-colors">Privacy</a>
+        <a href={`${base}/terms`} class="hover:text-white transition-colors">Terms</a>
         <a href="mailto:[YOUR_PRIVACY_EMAIL]" class="hover:text-white transition-colors">Support</a>
       </div>
     </div>
