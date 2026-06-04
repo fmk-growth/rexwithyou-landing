@@ -274,7 +274,7 @@ const faqs = [
               <img
                 src={`${base}${s.image}`}
                 alt={s.alt}
-                class="w-full h-auto rounded-3xl shadow-2xl"
+                class="w-full h-auto rounded-3xl shadow-2xl fade-bottom-soft"
                 loading="lazy"
                 decoding="async"
               />
@@ -346,7 +346,7 @@ const faqs = [
       <div class="mt-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
         {gridItems.map((item, i) => (
           <figure class={`group reveal reveal-delay-${(i % 3) + 1}`}>
-            <div class="relative overflow-hidden rounded-3xl frost transition-all duration-500 group-hover:scale-[1.015] group-hover:border-rex-orange/30 group-hover:shadow-[0_20px_60px_-15px_rgba(255,94,98,0.35)]">
+            <div class="relative overflow-hidden rounded-3xl frost fade-bottom transition-all duration-500 group-hover:scale-[1.015] group-hover:border-rex-orange/30 group-hover:shadow-[0_20px_60px_-15px_rgba(255,94,98,0.35)]">
               <img
                 src={`${base}${item.image}`}
                 alt={item.alt}
