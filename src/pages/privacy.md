@@ -11,14 +11,14 @@ eyebrow: Legal · Privacy
 **Last Updated:** June 3, 2026
 
 > **Placeholder map — replace before publishing:**
-> `[YOUR_LEGAL_NAME]`, `[YOUR_COUNTRY]`, `[YOUR_POSTAL_ADDRESS]`, `[YOUR_PRIVACY_EMAIL]`.
+> `Geo Track Technologies Inc`, `United States`, `8 The Green, STE A, Dover, DE 19901`, `support@rexwithyou.com`.
 > Pricing in §11 (`$3.99` / `$39.99`) is illustrative and must match App Store / Google Play offers at submission.
 
-This Privacy Policy explains how `[YOUR_LEGAL_NAME]` ("**we**", "**our**", "**us**", or "**RexWithYou**") collects, uses, and protects your information when you use the **RexWithYou** mobile application for iOS and Android (the "**App**", or the "**Service**"). The App centres on an AI fitness coach named *Rex* and is designed to help you track meals, weight, water, and progress.
+This Privacy Policy explains how `Geo Track Technologies Inc` ("**we**", "**our**", "**us**", or "**RexWithYou**") collects, uses, and protects your information when you use the **RexWithYou** mobile application for iOS and Android (the "**App**", or the "**Service**"). The App centres on an AI fitness coach named *Rex* and is designed to help you track meals, weight, water, and progress.
 
 By downloading, installing, or using the App, you agree to the practices described in this Policy and in our [Terms of Service](/terms). If you do not agree, please do not install or use the App.
 
-For privacy questions or to exercise your rights, contact us at **`[YOUR_PRIVACY_EMAIL]`**.
+For privacy questions or to exercise your rights, contact us at **`support@rexwithyou.com`**.
 
 ---
 
@@ -43,10 +43,10 @@ What follows is the long version, with the disclosures required by Apple App Rev
 
 The data controller (under GDPR) and business (under CCPA) responsible for this Policy is:
 
-> **`[YOUR_LEGAL_NAME]`**
-> `[YOUR_POSTAL_ADDRESS]`
-> `[YOUR_COUNTRY]`
-> Email: **`[YOUR_PRIVACY_EMAIL]`**
+> **`Geo Track Technologies Inc`**
+> `8 The Green, STE A, Dover, DE 19901`
+> `United States`
+> Email: **`support@rexwithyou.com`**
 
 We do not currently appoint a Data Protection Officer because we do not engage in large-scale processing of special-category data as a core activity. If you are in the European Economic Area or the United Kingdom and require a designated EU/UK Representative, please contact us; we will provide details upon request.
 
@@ -230,7 +230,7 @@ No method of transmission or storage is 100% secure. If we become aware of a per
 
 ## 9. International data transfers
 
-RexWithYou is operated from `[YOUR_COUNTRY]`. The third-party services we use (OpenAI, Spoonacular, Apple, Google) are based in or operate from the United States and other jurisdictions.
+RexWithYou is operated from `United States`. The third-party services we use (OpenAI, Spoonacular, Apple, Google) are based in or operate from the United States and other jurisdictions.
 
 If you use the App from the European Economic Area, the United Kingdom, Switzerland, or another jurisdiction with data-export restrictions, you understand that your information will be transferred to and processed in countries that may not provide the same level of legal protection as your home country. Where required, we rely on:
 
@@ -309,7 +309,7 @@ You have the right to:
 
 ### 12.4 How to exercise your rights
 
-Email us at **`[YOUR_PRIVACY_EMAIL]`**. We respond within 30 days (or sooner where required by law). Because we hold almost no identifying information about you, we typically verify a request by asking you to confirm it from the same device on which you use the App, or by other reasonable means.
+Email us at **`support@rexwithyou.com`**. We respond within 30 days (or sooner where required by law). Because we hold almost no identifying information about you, we typically verify a request by asking you to confirm it from the same device on which you use the App, or by other reasonable means.
 
 ---
 
@@ -334,9 +334,9 @@ Washington residents have the right to:
 - Access that data,
 - Request deletion of that data,
 - Withdraw consent for our collection or sharing of that data,
-- Appeal a refusal by us to act on a request — please email us with the word "Appeal" in the subject line at **`[YOUR_PRIVACY_EMAIL]`** within 60 days, and we will respond within 45 days.
+- Appeal a refusal by us to act on a request — please email us with the word "Appeal" in the subject line at **`support@rexwithyou.com`** within 60 days, and we will respond within 45 days.
 
-To exercise these rights, email **`[YOUR_PRIVACY_EMAIL]`**.
+To exercise these rights, email **`support@rexwithyou.com`**.
 
 ---
 
@@ -346,7 +346,7 @@ The App is not intended for, and we do not knowingly collect information from, i
 
 When you first open RexWithYou, we ask for your year of birth. If the value you provide indicates you are under 16, the App will not let you create a profile and will display guidance pointing to age-appropriate alternatives.
 
-If you believe we have inadvertently collected information from a person under 16, please contact us at **`[YOUR_PRIVACY_EMAIL]`** and we will delete the data promptly.
+If you believe we have inadvertently collected information from a person under 16, please contact us at **`support@rexwithyou.com`** and we will delete the data promptly.
 
 We choose 16 (rather than the COPPA threshold of 13) because: (a) under-16 youth health data carries heightened sensitivity under the EU GDPR and the WA MHMDA, (b) intentional calorie tracking by younger teens has been associated with disordered eating in clinical literature, and (c) doing so simplifies compliance across jurisdictions.
 
@@ -382,10 +382,10 @@ Continued use of the App after the updated Policy comes into effect indicates yo
 
 For privacy questions, complaints, or to exercise your rights:
 
-- Email: **`[YOUR_PRIVACY_EMAIL]`**
-- Mailing address: `[YOUR_POSTAL_ADDRESS]`
+- Email: **`support@rexwithyou.com`**
+- Mailing address: `8 The Green, STE A, Dover, DE 19901`
 
-The data controller responsible for your information is **`[YOUR_LEGAL_NAME]`**, located in **`[YOUR_COUNTRY]`**.
+The data controller responsible for your information is **`Geo Track Technologies Inc`**, located in **`United States`**.
 
 ---
 

@@ -11,10 +11,10 @@ eyebrow: Legal · Terms
 **Last Updated:** June 3, 2026
 
 > **Placeholder map — replace before publishing:**
-> `[YOUR_LEGAL_NAME]`, `[YOUR_COUNTRY]`, `[YOUR_POSTAL_ADDRESS]`, `[YOUR_PRIVACY_EMAIL]`, `[YOUR_GOVERNING_LAW_STATE]` (default: Delaware, USA).
+> `Geo Track Technologies Inc`, `United States`, `8 The Green, STE A, Dover, DE 19901`, `support@rexwithyou.com`, `Delaware` (default: Delaware, USA).
 > Pricing in §5 (`$3.99` / `$39.99`) is illustrative and must match App Store / Google Play offers at submission.
 
-These Terms of Service (the "**Terms**") govern your use of the **RexWithYou** mobile application for iOS and Android (the "**App**", or the "**Service**"), provided by `[YOUR_LEGAL_NAME]` ("**we**", "**our**", "**us**", or "**RexWithYou**").
+These Terms of Service (the "**Terms**") govern your use of the **RexWithYou** mobile application for iOS and Android (the "**App**", or the "**Service**"), provided by `Geo Track Technologies Inc` ("**we**", "**our**", "**us**", or "**RexWithYou**").
 
 **By downloading, installing, or using the App, you agree to be bound by these Terms.** If you do not agree, please do not install or use the App. If you are using the App on behalf of a person who lacks legal capacity (for example, a minor under 16), you must stop and remove the App.
 
@@ -45,7 +45,7 @@ RexWithYou is a personal nutrition and fitness tracking app with an AI coaching 
 - Generate meal plans and shopping lists,
 - Read recipes powered by third-party recipe data.
 
-**Rex is a fictional AI character.** Any persona, opinions, sarcasm, or coaching tone you experience are produced by automated language models and do not reflect the views of `[YOUR_LEGAL_NAME]` or its team. Rex's responses are **not** professional advice of any kind.
+**Rex is a fictional AI character.** Any persona, opinions, sarcasm, or coaching tone you experience are produced by automated language models and do not reflect the views of `Geo Track Technologies Inc` or its team. Rex's responses are **not** professional advice of any kind.
 
 ---
 
@@ -122,7 +122,7 @@ We may change Subscription pricing or modify which features are included in the 
 
 ## 6. License to use the App
 
-Subject to your compliance with these Terms, `[YOUR_LEGAL_NAME]` grants you a **personal, limited, revocable, non-exclusive, non-transferable, non-sublicensable** license to download, install, and use the App on a device that you own or control, for your personal, non-commercial use only.
+Subject to your compliance with these Terms, `Geo Track Technologies Inc` grants you a **personal, limited, revocable, non-exclusive, non-transferable, non-sublicensable** license to download, install, and use the App on a device that you own or control, for your personal, non-commercial use only.
 
 This license does **not** include any right to:
 
@@ -146,7 +146,7 @@ You retain all rights to Your Content. We do not claim ownership of it.
 
 ### 7.2 Limited license to us
 
-You grant `[YOUR_LEGAL_NAME]` a worldwide, royalty-free, non-exclusive, time-limited license to process Your Content solely to:
+You grant `Geo Track Technologies Inc` a worldwide, royalty-free, non-exclusive, time-limited license to process Your Content solely to:
 
 - Provide the Service to you (display, store on your device, search, organise),
 - Transmit it to our AI subprocessors (currently OpenAI for chat, voice, and photo analysis) so they can return results to you,
@@ -249,11 +249,11 @@ By using the App, you acknowledge that:
 
 ## 12. Intellectual property
 
-The App, the Rex character (including name, persona, voice tone, look, mascot artwork), the RexWithYou brand, the user interface, the code, and all related materials are owned by `[YOUR_LEGAL_NAME]` and its licensors and are protected by copyright, trademark, and other intellectual-property laws.
+The App, the Rex character (including name, persona, voice tone, look, mascot artwork), the RexWithYou brand, the user interface, the code, and all related materials are owned by `Geo Track Technologies Inc` and its licensors and are protected by copyright, trademark, and other intellectual-property laws.
 
 Except for the limited license in §6 and the user-content arrangement in §7, no rights are transferred to you. Nothing in these Terms grants you the right to use the RexWithYou name, the Rex character, or our logos for any purpose without prior written consent.
 
-If you believe that content in the App infringes your copyright or other rights, please contact us at **`[YOUR_PRIVACY_EMAIL]`** with sufficient information to identify the alleged infringement.
+If you believe that content in the App infringes your copyright or other rights, please contact us at **`support@rexwithyou.com`** with sufficient information to identify the alleged infringement.
 
 ---
 
@@ -281,7 +281,7 @@ Some jurisdictions do not allow the exclusion of certain warranties; in those ju
 
 ## 15. Limitation of liability
 
-**TO THE MAXIMUM EXTENT PERMITTED BY LAW**, in no event will `[YOUR_LEGAL_NAME]`, its officers, directors, employees, agents, suppliers, or licensors be liable for:
+**TO THE MAXIMUM EXTENT PERMITTED BY LAW**, in no event will `Geo Track Technologies Inc`, its officers, directors, employees, agents, suppliers, or licensors be liable for:
 
 - Any indirect, incidental, special, punitive, exemplary, or consequential damages,
 - Loss of profits, revenue, data, use, goodwill, or other intangible losses,
@@ -291,7 +291,7 @@ Some jurisdictions do not allow the exclusion of certain warranties; in those ju
 
 arising out of or in connection with your use of, or inability to use, the App, even if we have been advised of the possibility of such damages.
 
-**Our total cumulative liability** for all claims arising out of or relating to these Terms or your use of the App will not exceed the **greater of (a) one hundred United States dollars (US $100), or (b) the amount you actually paid to `[YOUR_LEGAL_NAME]` for the Subscription during the twelve (12) months immediately preceding the event giving rise to the claim**.
+**Our total cumulative liability** for all claims arising out of or relating to these Terms or your use of the App will not exceed the **greater of (a) one hundred United States dollars (US $100), or (b) the amount you actually paid to `Geo Track Technologies Inc` for the Subscription during the twelve (12) months immediately preceding the event giving rise to the claim**.
 
 These limitations apply to the fullest extent permitted by law. Nothing in these Terms excludes or limits liability that cannot be excluded or limited by applicable law (for example, liability for death or personal injury caused by negligence, fraud, or fraudulent misrepresentation in jurisdictions where such limitations are not permitted).
 
@@ -299,7 +299,7 @@ These limitations apply to the fullest extent permitted by law. Nothing in these
 
 ## 16. Indemnification
 
-You agree to indemnify, defend, and hold harmless `[YOUR_LEGAL_NAME]` and its officers, directors, employees, and agents from and against any claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or relating to:
+You agree to indemnify, defend, and hold harmless `Geo Track Technologies Inc` and its officers, directors, employees, and agents from and against any claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or relating to:
 
 - Your use or misuse of the App,
 - Your Content (under §7),
@@ -335,7 +335,7 @@ Sections that by their nature should survive termination — including §7 (Your
 
 ## 18. Governing law
 
-These Terms and any dispute arising out of or relating to them or the App are governed by the laws of the **State of `[YOUR_GOVERNING_LAW_STATE]`, United States**, without regard to its conflict-of-laws principles, and, where applicable, by the laws of the United States. Default: **Delaware**.
+These Terms and any dispute arising out of or relating to them or the App are governed by the laws of the **State of `Delaware`, United States**, without regard to its conflict-of-laws principles, and, where applicable, by the laws of the United States. Default: **Delaware**.
 
 If you are a consumer resident in the European Union, the United Kingdom, or another jurisdiction whose consumer-protection laws grant you mandatory rights that cannot be derogated from by contract, **those mandatory rights apply notwithstanding the choice of law above**, and the courts of your place of habitual residence retain jurisdiction over consumer claims as required by applicable law.
 
@@ -347,21 +347,21 @@ If you are a consumer resident in the European Union, the United Kingdom, or ano
 
 ### 19.1 Informal resolution first
 
-Before initiating any formal proceeding, you agree to first contact us at **`[YOUR_PRIVACY_EMAIL]`** with a written description of the dispute and to engage in good-faith discussions for at least 30 days.
+Before initiating any formal proceeding, you agree to first contact us at **`support@rexwithyou.com`** with a written description of the dispute and to engage in good-faith discussions for at least 30 days.
 
 ### 19.2 Binding arbitration
 
-If informal resolution does not resolve the dispute, **you and `[YOUR_LEGAL_NAME]` agree that any controversy or claim arising out of or relating to these Terms or the App will be resolved by final and binding individual arbitration** administered by the American Arbitration Association (AAA) under its Consumer Arbitration Rules. The seat and language of the arbitration will be `[YOUR_GOVERNING_LAW_STATE]`, USA, and English. Judgment on the award may be entered in any court of competent jurisdiction.
+If informal resolution does not resolve the dispute, **you and `Geo Track Technologies Inc` agree that any controversy or claim arising out of or relating to these Terms or the App will be resolved by final and binding individual arbitration** administered by the American Arbitration Association (AAA) under its Consumer Arbitration Rules. The seat and language of the arbitration will be `Delaware`, USA, and English. Judgment on the award may be entered in any court of competent jurisdiction.
 
 You may bring small-claims-court actions instead of arbitration if your claim qualifies and you bring it in your county of residence.
 
 ### 19.3 Class-action waiver
 
-> **YOU AND `[YOUR_LEGAL_NAME]` AGREE THAT, TO THE FULLEST EXTENT PERMITTED BY LAW, EACH OF US MAY BRING CLAIMS — WHETHER IN COURT OR IN ARBITRATION — AGAINST THE OTHER ONLY IN AN INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF, CLAIMANT, OR CLASS MEMBER IN ANY PURPORTED CLASS, COLLECTIVE, CONSOLIDATED, COORDINATED, PRIVATE-ATTORNEY-GENERAL, REPRESENTATIVE PROCEEDING, OR ANY MASS-ARBITRATION PROCEEDING IN WHICH MORE THAN ONE PERSON ASSERTS THE SAME OR SIMILAR CLAIMS AGAINST `[YOUR_LEGAL_NAME]`.**
+> **YOU AND `Geo Track Technologies Inc` AGREE THAT, TO THE FULLEST EXTENT PERMITTED BY LAW, EACH OF US MAY BRING CLAIMS — WHETHER IN COURT OR IN ARBITRATION — AGAINST THE OTHER ONLY IN AN INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF, CLAIMANT, OR CLASS MEMBER IN ANY PURPORTED CLASS, COLLECTIVE, CONSOLIDATED, COORDINATED, PRIVATE-ATTORNEY-GENERAL, REPRESENTATIVE PROCEEDING, OR ANY MASS-ARBITRATION PROCEEDING IN WHICH MORE THAN ONE PERSON ASSERTS THE SAME OR SIMILAR CLAIMS AGAINST `Geo Track Technologies Inc`.**
 
 ### 19.4 30-day opt-out
 
-You may opt out of §19.2 (arbitration) and §19.3 (class-action waiver) by sending a written notice to **`[YOUR_PRIVACY_EMAIL]`** within 30 days of first accepting these Terms, stating your name, the device on which you installed the App, and an unambiguous statement that you wish to opt out. Opting out has no other effect on the remainder of these Terms.
+You may opt out of §19.2 (arbitration) and §19.3 (class-action waiver) by sending a written notice to **`support@rexwithyou.com`** within 30 days of first accepting these Terms, stating your name, the device on which you installed the App, and an unambiguous statement that you wish to opt out. Opting out has no other effect on the remainder of these Terms.
 
 ### 19.5 Exceptions
 
@@ -376,14 +376,14 @@ The arbitration agreement does not apply to:
 
 This section applies if you obtained the App through the Apple App Store. It implements the "Schedule 2" minimum-terms requirements of the [Apple Developer Program License Agreement](https://developer.apple.com/support/terms/) for apps that use a custom EULA.
 
-- **Acknowledgement.** These Terms are concluded between you and `[YOUR_LEGAL_NAME]` only, and not with Apple Inc. ("Apple"). `[YOUR_LEGAL_NAME]`, not Apple, is solely responsible for the App and its content.
+- **Acknowledgement.** These Terms are concluded between you and `Geo Track Technologies Inc` only, and not with Apple Inc. ("Apple"). `Geo Track Technologies Inc`, not Apple, is solely responsible for the App and its content.
 - **Scope of license.** The license granted to you in §6 is limited to a non-transferable license to use the App on any Apple-branded device that you own or control, as permitted by the Usage Rules in the [Apple Media Services Terms](https://www.apple.com/legal/internet-services/itunes/).
-- **Maintenance and support.** `[YOUR_LEGAL_NAME]` is solely responsible for providing any maintenance and support for the App. Apple has no obligation whatsoever to furnish any maintenance or support services with respect to the App.
-- **Warranty.** `[YOUR_LEGAL_NAME]` is solely responsible for any product warranties, whether express or implied by law, to the extent not effectively disclaimed. If the App fails to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price for the App (if any). To the maximum extent permitted by applicable law, Apple will have no other warranty obligation whatsoever with respect to the App, and any other claims, losses, liabilities, damages, costs, or expenses attributable to any failure to conform to any warranty will be `[YOUR_LEGAL_NAME]`'s sole responsibility.
-- **Product claims.** `[YOUR_LEGAL_NAME]`, not Apple, is responsible for addressing any claims you or any third party have relating to the App or your possession and use of the App, including: (i) product-liability claims, (ii) any claim that the App fails to conform to any applicable legal or regulatory requirement, and (iii) claims arising under consumer-protection, privacy, or similar legislation.
-- **Intellectual-property claims.** In the event of any third-party claim that the App or your possession and use of the App infringes that third party's intellectual property rights, `[YOUR_LEGAL_NAME]`, not Apple, will be solely responsible for the investigation, defence, settlement, and discharge of any such claim.
+- **Maintenance and support.** `Geo Track Technologies Inc` is solely responsible for providing any maintenance and support for the App. Apple has no obligation whatsoever to furnish any maintenance or support services with respect to the App.
+- **Warranty.** `Geo Track Technologies Inc` is solely responsible for any product warranties, whether express or implied by law, to the extent not effectively disclaimed. If the App fails to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price for the App (if any). To the maximum extent permitted by applicable law, Apple will have no other warranty obligation whatsoever with respect to the App, and any other claims, losses, liabilities, damages, costs, or expenses attributable to any failure to conform to any warranty will be `Geo Track Technologies Inc`'s sole responsibility.
+- **Product claims.** `Geo Track Technologies Inc`, not Apple, is responsible for addressing any claims you or any third party have relating to the App or your possession and use of the App, including: (i) product-liability claims, (ii) any claim that the App fails to conform to any applicable legal or regulatory requirement, and (iii) claims arising under consumer-protection, privacy, or similar legislation.
+- **Intellectual-property claims.** In the event of any third-party claim that the App or your possession and use of the App infringes that third party's intellectual property rights, `Geo Track Technologies Inc`, not Apple, will be solely responsible for the investigation, defence, settlement, and discharge of any such claim.
 - **Legal compliance.** You represent and warrant that (i) you are not located in a country that is subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a "terrorist-supporting" country; and (ii) you are not listed on any U.S. Government list of prohibited or restricted parties.
-- **Developer contact information.** `[YOUR_LEGAL_NAME]`, `[YOUR_POSTAL_ADDRESS]`, **`[YOUR_PRIVACY_EMAIL]`**.
+- **Developer contact information.** `Geo Track Technologies Inc`, `8 The Green, STE A, Dover, DE 19901`, **`support@rexwithyou.com`**.
 - **Third-party terms.** You must comply with applicable third-party terms when using the App (for example, the OpenAI Usage Policies if you use AI features).
 - **Third-party beneficiary.** You acknowledge and agree that Apple and Apple's subsidiaries are third-party beneficiaries of these Terms, and that, upon your acceptance of these Terms, Apple will have the right (and will be deemed to have accepted the right) to enforce these Terms against you as a third-party beneficiary.
 
@@ -417,12 +417,12 @@ If you do not agree with the updated Terms, you must stop using the App and canc
 
 ## 24. Miscellaneous
 
-- **Entire agreement.** These Terms, together with our [Privacy Policy](/privacy), constitute the entire agreement between you and `[YOUR_LEGAL_NAME]` concerning the App and supersede all prior agreements, communications, and proposals between us on this subject.
+- **Entire agreement.** These Terms, together with our [Privacy Policy](/privacy), constitute the entire agreement between you and `Geo Track Technologies Inc` concerning the App and supersede all prior agreements, communications, and proposals between us on this subject.
 - **Severability.** If any provision of these Terms is found by a court of competent jurisdiction to be invalid, unlawful, or unenforceable, that provision will be enforced to the maximum extent permissible, and the remaining provisions will remain in full force and effect.
 - **Waiver.** Our failure to enforce any right or provision of these Terms will not be a waiver of that right or provision.
 - **Assignment.** You may not assign or transfer these Terms or any rights under them. We may assign these Terms in connection with a merger, acquisition, or sale of assets.
-- **Notices.** Notices to you under these Terms may be delivered by in-App message or by email to an address you have provided to us. Notices to us must be sent to **`[YOUR_PRIVACY_EMAIL]`**.
-- **No agency.** Nothing in these Terms creates an agency, partnership, joint venture, employment, or franchise relationship between you and `[YOUR_LEGAL_NAME]`.
+- **Notices.** Notices to you under these Terms may be delivered by in-App message or by email to an address you have provided to us. Notices to us must be sent to **`support@rexwithyou.com`**.
+- **No agency.** Nothing in these Terms creates an agency, partnership, joint venture, employment, or franchise relationship between you and `Geo Track Technologies Inc`.
 - **Force majeure.** We are not liable for any delay or failure to perform caused by circumstances beyond our reasonable control (including acts of God, war, sanctions, pandemic, third-party service outages).
 - **Language.** These Terms are issued in English. If we provide translations, the English version controls in case of conflict.
 
@@ -432,8 +432,8 @@ If you do not agree with the updated Terms, you must stop using the App and canc
 
 If you have questions about these Terms:
 
-- Email: **`[YOUR_PRIVACY_EMAIL]`**
-- Mailing address: `[YOUR_POSTAL_ADDRESS]`
+- Email: **`support@rexwithyou.com`**
+- Mailing address: `8 The Green, STE A, Dover, DE 19901`
 
 For privacy-specific questions or to exercise your privacy rights, see our [Privacy Policy](/privacy) §17.
 
