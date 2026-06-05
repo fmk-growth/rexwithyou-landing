@@ -10,9 +10,7 @@ eyebrow: Legal · Terms
 **Effective Date:** June 3, 2026
 **Last Updated:** June 3, 2026
 
-> **Placeholder map — replace before publishing:**
-> `Geo Track Technologies Inc`, `United States`, `8 The Green, STE A, Dover, DE 19901`, `support@rexwithyou.com`, `Delaware` (default: Delaware, USA).
-> Pricing in §5 (`$3.99` / `$39.99`) is illustrative and must match App Store / Google Play offers at submission.
+> Subscription pricing is set per region by Apple and Google and shown on the App Store / Google Play paywall in the user's local currency.
 
 These Terms of Service (the "**Terms**") govern your use of the **RexWithYou** mobile application for iOS and Android (the "**App**", or the "**Service**"), provided by `Geo Track Technologies Inc` ("**we**", "**our**", "**us**", or "**RexWithYou**").
 
@@ -84,12 +82,9 @@ Core tracking features (manual meal entry, weight, water, steps, streaks) are **
 
 ### 5.2 Pricing and renewal
 
-Illustrative pricing (subject to the offers actually shown to you on the App Store / Google Play paywall at time of purchase):
+Pricing for monthly and annual subscriptions is set per region by Apple and Google and displayed on the App Store or Google Play paywall in your local currency before you complete the purchase. You are not charged anything until you confirm.
 
-- **Monthly:** $3.99 with auto-renewal,
-- **Annual:** $39.99 with auto-renewal (equivalent to ~$3.33 per month).
-
-Local currency, taxes, and regional pricing are determined by Apple and Google.
+Local currency, taxes, regional offers (free trials, introductory discounts), and price adjustments are determined by Apple and Google according to their respective pricing matrices.
 
 ### 5.3 Apple-required auto-renewal disclosure
 

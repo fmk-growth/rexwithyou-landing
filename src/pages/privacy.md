@@ -10,9 +10,7 @@ eyebrow: Legal · Privacy
 **Effective Date:** June 3, 2026
 **Last Updated:** June 3, 2026
 
-> **Placeholder map — replace before publishing:**
-> `Geo Track Technologies Inc`, `United States`, `8 The Green, STE A, Dover, DE 19901`, `support@rexwithyou.com`.
-> Pricing in §11 (`$3.99` / `$39.99`) is illustrative and must match App Store / Google Play offers at submission.
+> Subscription pricing is set per region by Apple and Google and shown on the App Store / Google Play paywall in the user's local currency.
 
 This Privacy Policy explains how `Geo Track Technologies Inc` ("**we**", "**our**", "**us**", or "**RexWithYou**") collects, uses, and protects your information when you use the **RexWithYou** mobile application for iOS and Android (the "**App**", or the "**Service**"). The App centres on an AI fitness coach named *Rex* and is designed to help you track meals, weight, water, and progress.
 
@@ -263,10 +261,7 @@ Either action permanently removes the locally stored data. Data already transmit
 
 ## 11. Subscriptions and payments
 
-The App offers a paid tier ("**RexWithYou Premium**", or simply "**RexWithYou**") that unlocks AI features and meal-plan generation. Pricing examples (subject to change before launch):
-
-- **Monthly:** $3.99 with auto-renewal
-- **Annual:** $39.99 with auto-renewal (equivalent to ~$3.33 / month)
+The App offers a paid tier ("**RexWithYou Premium**", or simply "**RexWithYou**") that unlocks AI features and meal-plan generation. Pricing is set per region by Apple and Google and displayed on the App Store or Google Play paywall in your local currency before you complete the purchase. You are not charged anything until you confirm.
 
 All payments are processed by **Apple** (App Store) on iOS and by **Google** (Google Play) on Android. We do not see or store your payment card details. We receive a purchase token and a subscription status; we use these only to unlock paid features in the App.
 
