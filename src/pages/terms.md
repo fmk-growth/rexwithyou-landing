@@ -14,7 +14,7 @@ These Terms of Use (the "**Terms**") govern your use of the **RexWithYou** mobil
 
 By downloading, installing, or using the App, you agree to be bound by these Terms and our [Privacy Policy](/privacy). If you do not agree, do not use the App.
 
-Please read Section 4 (No Medical Advice) and Section 5 (AI Accuracy) carefully — they describe important limits of what the App can do.
+Please read Section 4 (No Medical Advice) and Section 5 (AI Accuracy) carefully — they describe important limits of what the App can do. Section 18 contains a binding **arbitration agreement and class-action waiver** (with a 30-day opt-out) that affects your legal rights.
 
 ---
 
@@ -185,19 +185,35 @@ These Terms are governed by the laws of the State of Delaware, United States, wi
 
 ---
 
-## 18. Apple & Google Terms
+## 18. Dispute Resolution — Arbitration & Class-Action Waiver
+
+> **Please read this section carefully. It affects how disputes between you and us are resolved and limits your rights to bring a lawsuit.**
+
+**Informal resolution first.** Before starting any formal proceeding, you agree to contact us at **support@rexwithyou.com** with a description of the dispute and to attempt to resolve it in good faith for at least 30 days.
+
+**Binding arbitration.** If we cannot resolve a dispute informally, you and Geo Track Technologies Inc agree that any dispute arising out of or relating to these Terms or the App will be resolved by **final and binding individual arbitration** administered by the American Arbitration Association (AAA) under its [Consumer Arbitration Rules](https://www.adr.org/consumer), rather than in court. Arbitration will take place in Delaware or, at your election, by phone or video, and may be conducted in English.
+
+**CLASS-ACTION WAIVER. YOU AND GEO TRACK TECHNOLOGIES INC AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN AN INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS, COLLECTIVE, CONSOLIDATED, OR REPRESENTATIVE PROCEEDING.**
+
+**30-day opt-out.** You may opt out of this arbitration agreement and class-action waiver by emailing **support@rexwithyou.com** within 30 days of first accepting these Terms, with the subject line "Arbitration Opt-Out" and stating your decision to opt out. Opting out does not affect any other part of these Terms.
+
+**Exceptions.** This section does not apply to: (a) claims that qualify for small-claims court, brought individually; (b) claims for injunctive or equitable relief regarding intellectual-property rights; and (c) consumers in the EU, UK, or other jurisdictions where pre-dispute arbitration agreements or class-action waivers are not enforceable — those users retain the rights and courts of their place of residence (see Section 17).
+
+---
+
+## 19. Apple & Google Terms
 
 These Terms are between you and Geo Track Technologies Inc only, not Apple or Google. Apple and Google are not responsible for the App or its content. On iOS, Apple is a third-party beneficiary of these Terms and may enforce them; you must comply with the Apple Media Services Terms and applicable Usage Rules. You confirm you are not on any government restricted-parties list and not in an embargoed country.
 
 ---
 
-## 19. Geographic Availability
+## 20. Geographic Availability
 
 The App is offered only where published on the App Store and Google Play. It is not offered in the Russian Federation or other comprehensively sanctioned jurisdictions. You are responsible for ensuring your use complies with local law.
 
 ---
 
-## 20. Changes & Contact
+## 21. Changes & Contact
 
 We may modify these Terms at any time. For material changes we will notify you in-App; continued use after they take effect constitutes acceptance. If any provision is unenforceable, the rest remain in effect.
 
