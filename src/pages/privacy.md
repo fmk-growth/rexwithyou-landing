@@ -14,7 +14,7 @@ Geo Track Technologies Inc ("**we**", "**our**", "**us**") is committed to prote
 
 By downloading, installing, or using the App, you agree to the collection and use of your information as described in this Privacy Policy and our [Terms of Use](/terms).
 
-If you have any questions, contact us at **support@rexwithyou.com**.
+If you have any questions, contact us at **rex@the-next.ai**.
 
 ---
 
@@ -161,7 +161,7 @@ You have the right to know, delete, and correct your personal information, to li
 **If you are a Washington, Nevada, or Connecticut resident:**
 You have additional rights over "consumer health data" under state health-privacy laws, including the right to access, delete, and withdraw consent.
 
-To exercise any right, use the in-App controls or email **support@rexwithyou.com**. We respond within 30 days.
+To exercise any right, use the in-App controls or email **rex@the-next.ai**. We respond within 30 days.
 
 ---
 
@@ -200,7 +200,7 @@ If you have questions about this Privacy Policy or your data:
 > **Geo Track Technologies Inc**
 > 8 The Green, STE A, Dover, DE 19901
 > United States
-> Email: **support@rexwithyou.com**
+> Email: **rex@the-next.ai**
 
 ---
 

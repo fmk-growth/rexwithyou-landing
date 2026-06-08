@@ -191,13 +191,13 @@ These Terms are governed by the laws of the State of Delaware, United States, wi
 
 > **Please read this section carefully. It affects how disputes between you and us are resolved and limits your rights to bring a lawsuit.**
 
-**Informal resolution first.** Before starting any formal proceeding, you agree to contact us at **support@rexwithyou.com** with a description of the dispute and to attempt to resolve it in good faith for at least 30 days.
+**Informal resolution first.** Before starting any formal proceeding, you agree to contact us at **rex@the-next.ai** with a description of the dispute and to attempt to resolve it in good faith for at least 30 days.
 
 **Binding arbitration.** If we cannot resolve a dispute informally, you and Geo Track Technologies Inc agree that any dispute arising out of or relating to these Terms or the App will be resolved by **final and binding individual arbitration** administered by the American Arbitration Association (AAA) under its [Consumer Arbitration Rules](https://www.adr.org/consumer), rather than in court. Arbitration will take place in Delaware or, at your election, by phone or video, and may be conducted in English.
 
 **CLASS-ACTION WAIVER. YOU AND GEO TRACK TECHNOLOGIES INC AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN AN INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS, COLLECTIVE, CONSOLIDATED, OR REPRESENTATIVE PROCEEDING.**
 
-**30-day opt-out.** You may opt out of this arbitration agreement and class-action waiver by emailing **support@rexwithyou.com** within 30 days of first accepting these Terms, with the subject line "Arbitration Opt-Out" and stating your decision to opt out. Opting out does not affect any other part of these Terms.
+**30-day opt-out.** You may opt out of this arbitration agreement and class-action waiver by emailing **rex@the-next.ai** within 30 days of first accepting these Terms, with the subject line "Arbitration Opt-Out" and stating your decision to opt out. Opting out does not affect any other part of these Terms.
 
 **Exceptions.** This section does not apply to: (a) claims that qualify for small-claims court, brought individually; (b) claims for injunctive or equitable relief regarding intellectual-property rights; and (c) consumers in the EU, UK, or other jurisdictions where pre-dispute arbitration agreements or class-action waivers are not enforceable — those users retain the rights and courts of their place of residence (see Section 17).
 
@@ -224,7 +224,7 @@ Questions about these Terms:
 > **Geo Track Technologies Inc**
 > 8 The Green, STE A, Dover, DE 19901
 > United States
-> Email: **support@rexwithyou.com**
+> Email: **rex@the-next.ai**
 
 ---
 
