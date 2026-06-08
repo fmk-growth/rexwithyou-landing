@@ -43,6 +43,8 @@ RexWithYou helps you:
 - Receive AI-generated coaching messages from the Rex character;
 - Generate meal plans, recipes, and shopping lists.
 
+You can create an account by signing in with Apple or Google to sync your data across devices and restore it if you reinstall. How account and synced data are handled is described in our [Privacy Policy](/privacy).
+
 **Rex is a fictional AI character.** Its persona, tone, and opinions are produced by automated language models and do not reflect the views of Geo Track Technologies Inc. Rex's responses are not professional advice of any kind.
 
 ---
@@ -90,7 +92,7 @@ You may not:
 
 You retain full ownership of the meal photos, voice recordings, meal descriptions, chat messages, and other content you submit ("**Your Content**").
 
-You grant us only a limited license to process Your Content to provide the Service to you — storing it on your device and transmitting it to OpenAI for the AI feature you requested. **We do not use Your Content to train AI models, sell it, or share it with advertisers.** This license ends when you delete the content or stop using the App.
+You grant us only a limited license to process Your Content to provide the Service to you — storing it on your device and in your account (synced via Firebase), and transmitting it to OpenAI for the AI feature you requested. **We do not use Your Content to train AI models, sell it, or share it with advertisers.** This license ends when you delete the content or your account.
 
 You are responsible for ensuring Your Content does not infringe anyone's rights or contain unlawful material.
 
@@ -175,7 +177,7 @@ You agree to indemnify and hold Geo Track Technologies Inc harmless from any cla
 
 ## 16. Termination
 
-You may stop using the App at any time by uninstalling it (cancel any active subscription separately through Apple or Google). We may suspend or terminate your access at any time for conduct that violates these Terms. Upon termination, the license in Section 6 ends and you must stop using the App.
+You may stop using the App at any time by uninstalling it, and you can delete your account and synced data via Settings → Account → Delete Account (cancel any active subscription separately through Apple or Google). We may suspend or terminate your access at any time for conduct that violates these Terms. Upon termination, the license in Section 6 ends and you must stop using the App.
 
 ---
 
